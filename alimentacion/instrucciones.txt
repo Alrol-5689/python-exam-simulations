@@ -1,0 +1,25 @@
+2. Implementar un programa en Python con la siguiente funcionalidad:
+El programa debe gestionar una serie de mercancías de una empresa de alimentación, aplicando los principios de la Programación Orientada a Objetos. El sistema deberá permitir representar distintos tipos de mercancías con características comunes y específicas, calcular determinados valores asociados a cada tipo y mostrar la información de forma polimórfica, garantizando una correcta encapsulación de los atributos y una estructura basada en herencia y abstracción.
+
+Requisitos:
+Crear una clase base Mercancía que incluya:
+Atributos privados: marca y modelo.
+Métodos getter y setter para acceder a los atributos.
+Un método mostrar_info().
+Crear al menos dos clases hijas que hereden de Mercancía:
+Fruta
+Carne
+Añadir atributos específicos en cada clase:
+Fruta: procedencia.
+Carne: animal.
+Implementar polimorfismo:
+Sobrescribir el método mostrar_info() en cada clase hija.
+Implementar abstracción:
+Crear un método en la clase base (por ejemplo, calcular_coste()) que sea común pero se implemente de forma distinta en cada clase hija.
+Crear un programa principal que:
+Instancie varios objetos de tipo Fruta y Carne.
+Los almacene en una lista.
+Recorra la lista mostrando la información de cada objeto (uso de polimorfismo).
+
+Incluir en el ejercicio el código fuente debidamente comentado y un pantallazo de funcionamiento de la ejecución del programa.
+(3,5 puntos)

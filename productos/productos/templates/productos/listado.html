@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Listado de productos</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #f4f6f8;
+            color: #222;
+        }
+
+        main {
+            max-width: 760px;
+            margin: 48px auto;
+            padding: 0 20px;
+        }
+
+        h1 {
+            margin-bottom: 24px;
+            font-size: 32px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            background: #fff;
+            border: 1px solid #d8dee4;
+        }
+
+        th,
+        td {
+            padding: 14px 16px;
+            border-bottom: 1px solid #d8dee4;
+            text-align: left;
+        }
+
+        th {
+            background: #e9eef3;
+        }
+
+        td:last-child,
+        th:last-child {
+            text-align: right;
+        }
+
+        .mensaje {
+            padding: 16px;
+            background: #fff;
+            border: 1px solid #d8dee4;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <h1>Listado de productos</h1>
+
+        {% if productos %}
+            <table>
+                <thead>
+                    <tr>
+                        <th>Nombre</th>
+                        <th>Precio</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for producto in productos %}
+                        <tr>
+                            <td>{{ producto.nombre }}</td>
+                            <td>{{ producto.precio }} EUR</td>
+                        </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        {% else %}
+            <p class="mensaje">No hay productos registrados.</p>
+        {% endif %}
+    </main>
+</body>
+</html>

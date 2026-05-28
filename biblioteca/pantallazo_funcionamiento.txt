@@ -1,0 +1,17 @@
+﻿LISTADO DE LIBROS
+============================================================
+Libro 1
+  Nombre:        Los pilares de la tierra
+  Identificador: 1049
+  Encargado:     Mario
+------------------------------------------------------------
+Libro 2
+  Nombre:        El nombre de la rosa
+  Identificador: 2234
+  Encargado:     Luis
+------------------------------------------------------------
+Libro 3
+  Nombre:        El perfume
+  Identificador: 3187
+  Encargado:     Angela
+------------------------------------------------------------

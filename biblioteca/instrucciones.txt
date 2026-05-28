@@ -1,0 +1,25 @@
+1. Implementar un programa en Python con la siguiente funcionalidad:
+Eres el encargado del sistema de gestión de una biblioteca. 
+La biblioteca necesita un sistema que permita almacenar, actualizar y consultar los libros.
+Cada libro tiene la siguiente información:
+
+Nombre del libro (Ejemplo: "Los pilares de la tierra", "El nombre de la rosa", "El perfume").
+
+Identificador del libro (Ejemplo: 1049, 2234, etc.).
+
+Persona encargada (Ejemplo: Mario, Luis, Ángela, etc.).
+
+Para este ejercicio, los libros se almacenarán en un archivo de texto (libros.txt), 
+permitiendo que los datos persistan incluso después de cerrar el programa.
+
+Tu programa gestion_libros.py deberá implementar las siguientes funcionalidades:
+
+1. Carga de las tareas:
+Leer los productos desde un archivo de texto (libros.txt).
+Si el archivo no existe, se debe crear con uno predeterminado.
+
+2. Mostrar los libros:
+Imprimir en pantalla los libros con su nombre, identificador y persona encargada en un formato claro y legible.
+
+Incluir en el ejercicio el código fuente debidamente comentado y un pantallazo de funcionamiento de la ejecución del programa.
+(3,5 puntos)

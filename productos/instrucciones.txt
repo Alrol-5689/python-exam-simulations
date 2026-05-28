@@ -1,0 +1,25 @@
+Desarrolla una aplicación web básica utilizando el framework Django que permita
+mostrar un listado de productos almacenados en una base de datos. La aplicación
+deberá incluir la definición de un modelo sencillo, la creación de una vista que
+recupere los datos y su representación en una plantilla HTML, siguiendo la estructura
+estándar del framework y asegurando el correcto funcionamiento de las rutas y la
+renderización de la información.
+Requisitos
+• Crear un proyecto Django.
+• Crear una aplicación dentro del proyecto (por ejemplo, productos).
+Definir un modelo Producto con los siguientes campos:
+• nombre (cadena de texto)
+• precio (número decimal)
+Realizar las migraciones necesarias para crear la base de datos.
+Crear una vista que:
+• Obtenga todos los productos de la base de datos.
+• Los envíe a una plantilla HTML.
+Crear una plantilla HTML que:
+• Muestre el listado de productos.
+• Muestre nombre y precio.
+Configurar las URLs:
+• Una ruta que apunte a la vista creada.
+
+Incluir en el ejercicio el listado de todos los comandos utilizados y un pantallazo de
+funcionamiento de la ejecución de la aplicación.
+(3,5 puntos).
